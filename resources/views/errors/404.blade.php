@@ -7,6 +7,6 @@
         <h3 class="text-3xl">Pagina niet gevonden!</h3>
         <p>URL van de pagina was niet gevonden. Probeer andere pagina :)</p>
         <a href="/" class="p-2 bg-redPrimary text-white rounded-md">Home</a>
-        <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="mailto:d206947@edu.curio.nl">Contact me</a>
+        <a class="pointer relative btn-nav outline-none after:top-[25px] after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="mailto:d206947@edu.curio.nl">Contact me</a>
     </div>
 @endsection

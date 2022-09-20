@@ -3,8 +3,8 @@
         <img class="block h-16" src="assets/logo/logo.png" alt="logo">
     </a>
     <div class="space-x-10">
-        <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/about-me">About me</a>
-        <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/projecten">Projecten</a>
+        <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:top-[25px] after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/about-me">About me</a>
+        <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:top-[25px] after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/projecten">Projecten</a>
        
         <a href="/docs/cv.pdf" class="pointer px-16 py-2.5 relative rounded group text-white font-medium inline-block">
             <span
