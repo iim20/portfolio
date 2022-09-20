@@ -1,5 +1,7 @@
 <div class="flex justify-between items-center mt-2">
-    <img class="block h-16" src="assets/logo/logo.png" alt="logo">
+    <a href="/">
+        <img class="block h-16" src="assets/logo/logo.png" alt="logo">
+    </a>
     <div class="space-x-10">
         <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/about-me">About me</a>
         <a class="pointer relative btn-nav outline-none after:content-[''] after:absolute after:w-full after:h-[0.175rem] after:left-0 after:bottom-0 after:bg-redPrimary btn-hover" href="/projecten">Projecten</a>
