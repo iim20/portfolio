@@ -37,4 +37,20 @@
             <img class="block max-w-full" src="assets/avatar/profile.jpg" alt="profile-foto">
         </div>
     </div>
+    <div class="px-20 text-center">
+        <h1>About me</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde eveniet officiis, quidem voluptatibus totam, numquam facere doloribus error fugit nisi temporibus earum magnam. Commodi ab voluptatum,... <a class="text-blue-600 hover:underline" href="/about-me">read more</a></p>
+    </div>
+    <div class="text-center my-20 pb-10">
+        <h1>Projecten</h1>
+        <div class="grid grid-cols-2 gap-4 p-10 relative mt-44 mb-20">
+            <div class="h-72 px-10 text-left border-2">
+                <h1>Title</h1>
+                <p class="w-[30rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quaerat possimus inventore magnam alias laboriosam facilis maiores adipisci aliquid? Provident aspernatur nostrum consequatur, placeat perferendis esse quia iure, adipisci sed reprehenderit delectus? Doloribus, aspernatur non consequuntur magnam voluptate, corporis quaerat itaque veritatis suscipit laudantium ipsam vel dolores eum odio sit!</p>
+            </div>
+            <div class="bg-slate-400 h-96 w-[590px] absolute top-50 bottom-[30%] right-[10%] z-10"></div>
+        </div>
+        
+        <a href="/projecten" class="rounded-md px-3.5 py-2 m-1 cursor-pointer border-2 font-medium border-indigo-600 text-indigo-600">Meer projecten</a>
+    </div>
 @endsection
