@@ -19,3 +19,26 @@
         @apply mt-4;
     }
 }
+
+/* 
+|-----------------------------------
+            NAVBAR
+|-----------------------------------
+*/
+
+.btn-hover::after{
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.btn-hover:hover::after{
+    transform: scale(1, 1);
+}
+
+/* 
+|-----------------------------------
+            DEBUGGEN
+|-----------------------------------
+*/
+.debuggen{
+    border: 1px solid limegreen;
+}

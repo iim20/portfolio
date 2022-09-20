@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>I.Mohamed - Portfolio</title>
+    <title>@yield('title')</title>
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
@@ -18,17 +18,16 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
-
-
-
-<body class="bg-white relative h-fit font-sans">
-    
-    <!-- Main -->
+<body class="bg-white relative h-fit font-sans max-w-7xl mx-auto">
+    <nav>
+        @include('layouts.nav')
+    </nav>
     <main>
-        <div class="flex justify-center items-center h-screen">
-            <h1 class="bg-yellow-300 p-2">Homepagina</h1>
-        </div>
+        @yield('content')
     </main>
+    <footer>
+        @include('layouts.footer')
+    </footer>
       
 </body>
 
